@@ -3,7 +3,10 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      origin: ["http://localhost:3000"], 
+      origin: [
+        "http://localhost:3000", // Local frontend
+        "https://your-frontend-domain.render.com", // Render frontend domain
+      ],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     },
   },
