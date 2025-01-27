@@ -4,8 +4,8 @@ module.exports = [
     name: "strapi::cors",
     config: {
       origin: [
-        "http://localhost:3000",
-        "https://your-frontend-domain.onrender.com",
+        "http://localhost:3000", 
+        "https://wander-client.onrender.com", 
       ],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization"],
